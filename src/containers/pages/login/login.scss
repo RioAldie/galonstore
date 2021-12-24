@@ -1,0 +1,155 @@
+.container-login{
+    background: #EBF4F8;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .main-bg{
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;    
+   }
+   .mobile-login{
+    height: 100vh;
+    width: 480px;
+    background: #002E74;
+    display: flex;
+    z-index: 10000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+        .logo{
+            height: 40px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            .logos{
+            background-size: cover;
+            position: absolute;
+            background-repeat: no-repeat;
+            }
+        }
+        .form-login{
+            width: 460px;
+            box-sizing: border-box;
+            height: 570px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background: #fff;
+            align-items: center;
+
+            .log-title{
+                width: 370px;
+                height: 70px;
+                font-size: 30px;
+                color: #002E74;
+            }
+            .log-label{
+                width: 370px;
+                height: 30px;
+                font-size: 20px;
+                color: #000;
+            }
+            .log-input{
+                width: 370px;
+                height: 60px;
+                color: #000;
+                font-size: 20px;
+                border: none;
+                background: #EBF4F8;
+            }
+            .reg-btn{
+                width: 370px;
+                height: 65px;
+                background: #002E74;
+                color: #fff;
+                font-size: 20px;
+                display: flex;
+                align-items: center;
+                font-weight: 600;
+                justify-content: center;
+                cursor: pointer;
+                &:hover{
+                    background: #022150;
+                }
+            }
+            .disable{
+                background: #000d20;
+                cursor: not-allowed;
+                
+            }
+            .sublink{
+                width: 370px;
+                height: 20px;
+                font-size: 12px;
+                font-weight: 200;
+                color: #000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 20px;
+                .sub-link{
+                    color: blue;
+                    cursor: pointer;
+                    
+                }
+            }
+        }
+}
+
+}
+
+@media only screen and (max-width: 400px) {
+    .container-login{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        .main-bg{
+            z-index: -10000;
+        }
+       .mobile-login{
+        height: 100vh;
+        width: 380px;
+            .form-login{
+                width: 360px;
+                height: 465px;
+    
+                .log-title{
+                    width: 300px;
+                 
+                }
+                .log-label{
+                    width: 300px;
+                   
+                }
+                .log-input{
+                    width: 300px;
+                    
+                }
+                .reg-btn{
+                    width: 300px;
+                  
+                }
+               
+                .sublink{
+                    width: 300px;
+                   
+                
+                }
+            }
+    }
+    
+    }
+}
+@media only screen and (max-width: 360px){
+    .container-login{
+        .mobile-login{
+            .form-login{
+                width: 330px;
+            }
+        }
+    }
+}

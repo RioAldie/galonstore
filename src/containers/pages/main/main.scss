@@ -1,0 +1,158 @@
+.container{
+    background: #EBF4F8;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.main-bg{
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    
+}
+.mobile{
+    height: 100vh;
+    width: 480px;
+    background: #002E74;
+    display: flex;
+    z-index: 10000;
+    flex-direction: column;
+}
+.logo{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.logos{
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.hero{
+    position: relative;
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-titles{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.form-banner{
+    position: absolute;
+    max-width: 480px;
+    margin-top: 280px;
+    display: flex;
+    margin-left: 107px;
+    flex-direction: column;
+}
+.form-btn{
+    position: absolute;
+    max-width: 480px;
+    margin-top: 400px;
+    height: 120px;
+    display: flex;
+    margin-left: 45px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero-title{
+    width: 100%;
+    height: 20px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #EDF200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-subtitle{
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #fff;
+    text-align: center;
+}
+.masuk-btn{
+    width: 380px;
+    height: 40px;
+    border-radius: 28px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #002E74;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.daftar-btn{
+    width: 380px;
+    height: 40px;
+    border-radius: 28px;
+    background: #0167FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+@media only screen and (max-width: 400px) {
+    .container{
+        background: #EBF4F8;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        overflow: hidden;
+    }
+    .main-bg{
+        background-size: cover;
+        position: absolute;
+        background-repeat: no-repeat;
+        z-index: -1000000;
+    }
+    .form-btn{
+        position: absolute;
+        max-width: 380px;
+        margin-top: 400px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .masuk-btn{
+            max-width: 345px;
+        }
+        .daftar-btn{
+            max-width: 345px;
+        }
+    }
+    .form-banner{
+        position: absolute;
+        max-width: 480px;
+        margin-top: 280px;
+        display: flex;
+        margin-left: 88px;
+        flex-direction: column;
+    }
+}

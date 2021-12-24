@@ -1,0 +1,52 @@
+
+[
+    {
+        "id" : "111",
+        "title" : "Sarapui Water",
+        "price" : "Rp. 7000-;",
+        "jenis" : "Galon",
+        "gambar" : "./images/galon-satu.png"
+    },
+    {
+        "id" : "122",
+        "title" : "Sarapui Water",
+        "price" : "Rp. 10000-;",
+        "jenis" : "gelas",
+        "gambar" : ""
+    },
+    {
+        "id" : "113",
+        "title" : "Origina Water",
+        "price" : "Rp. 4000-;",
+        "jenis" : "Galon",
+        "gambar" : "./images/galon-tiga.png"
+    },
+    {
+        "id" : "123",
+        "title" : "Original Water",
+        "price" : "Rp. 8000-;",
+        "jenis" : "Gelas",
+        "gambar" : ""
+    },
+{
+        "id" : "132",
+        "title" : "Original Water",
+        "price" : "Rp. 2000-;",
+        "jenis" : "Botol",
+        "gambar" : "./images/botol-dua.png"
+    },
+    {
+        "id" : "142",
+        "title" : "Alsopure Water",
+        "price" : "Rp. 6000-;",
+        "jenis" : "Botol",
+        "gambar" : "./images/galon-dua.png"
+    },
+    {
+        "id" : "144",
+        "title" : "Careless",
+        "price" : "Rp. 5000-;",
+        "jenis" : "Botol",
+        "gambar" : "./images/botol-satu.png"
+    }
+]
