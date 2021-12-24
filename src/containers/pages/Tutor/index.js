@@ -48,7 +48,7 @@ class Tutor extends Component{
                         <div className="faq-card">
                             <div className="faq-box">
                                 <div className="faq-circle">
-                                    <img src={phone}></img>
+                                    <img src={phone} alt=""></img>
                                 </div>
                             </div>
                             <div className="faqcard-text">
@@ -58,7 +58,7 @@ class Tutor extends Component{
                         <div className="faq-card">
                             <div className="faq-box">
                                 <div className="faq-circle">
-                                    <img src={shoper}></img>
+                                    <img src={shoper} alt=""></img>
                                 </div>
                             </div>
                             <div className="faqcard-text">
@@ -68,7 +68,7 @@ class Tutor extends Component{
                         <div className="faq-card">
                             <div className="faq-box">
                                 <div className="faq-circle">
-                                    <img src={aprove}></img>
+                                    <img src={aprove} alt=""></img>
                                 </div>
                             </div>
                             <div className="faqcard-text">
@@ -78,7 +78,7 @@ class Tutor extends Component{
                         <div className="faq-card">
                             <div className="faq-box">
                                 <div className="faq-circle">
-                                    <img src={deliver}></img>
+                                    <img src={deliver} alt=""></img>
                                 </div>
                             </div>
                             <div className="faqcard-text">
