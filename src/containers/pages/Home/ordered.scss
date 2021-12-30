@@ -1,0 +1,53 @@
+.mobile-ordered{
+   
+    width: 480px;
+    height: 100vh;
+    overflow: scroll;
+    background: #fff;
+    display: flex;
+    z-index: 10000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   .banner-ordered{
+        width: 480px;
+        height: 65px;
+        background: #002E74;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+   }
+   .ordered-hero{
+       width: 400px;
+       height: 400px;
+       display: flex;
+   }
+   .ordered-text{
+       width: 400px;
+       font-size: 18px;
+       font-weight: 600;
+       color: #002E74;
+       text-align: center;
+       position: absolute;
+       top: 180px;
+       left: auto;
+   }
+   .btn-backhome{
+       width: 200px;
+       height: 30px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 10px;
+       border-radius: 30px;
+       background: #002E74;
+       color: #fff;
+       box-sizing: border-box;
+       cursor: pointer;
+       
+   }
+   
+}
