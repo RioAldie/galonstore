@@ -64,7 +64,12 @@ class Home extends Component{
            customer: '',
            alamat : '',
            telepone : ''
-       })
+       });
+         setTimeout(()=>{
+        const browserHistory = createBrowserHistory()
+            browserHistory.push('/ordered');
+            window.location.reload();
+       },3000);
     }
     
     handleBuy = (id)=>{
